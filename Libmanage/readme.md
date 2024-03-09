@@ -64,37 +64,36 @@ The Library Management Web Application is designed to assist librarians and libr
 ### 2. Key Components:
 
 Model (model.Book):
+* Represents the data structure of a book with attributes such as title, author, and an automatically generated ID.
+* Utilizes Hibernate annotations for ORM (Object-Relational Mapping).
 
-Represents the data structure of a book with attributes such as title, author, and an automatically generated ID.
-Utilizes Hibernate annotations for ORM (Object-Relational Mapping).
 DAO (dao.BookDAO):
+* Provides Data Access Object interfaces for book-related operations.
+* Implements methods for CRUD operations (Create, Read, Update, Delete) using Hibernate for database interaction.
 
-Provides Data Access Object interfaces for book-related operations.
-Implements methods for CRUD operations (Create, Read, Update, Delete) using Hibernate for database interaction.
 Service (service.BookService):
+* Defines service interfaces for managing books.
+* Implements business logic for book-related operations, serving as an intermediary between the controller and DAO.
 
-Defines service interfaces for managing books.
-Implements business logic for book-related operations, serving as an intermediary between the controller and DAO.
 Controller (controller.BookController):
+* Handles HTTP requests and manages the flow of the application.
+* Utilizes Spring annotations for request mapping and dependency injection.
+* Coordinates with the service layer to perform book-related actions.
 
-Handles HTTP requests and manages the flow of the application.
-Utilizes Spring annotations for request mapping and dependency injection.
-Coordinates with the service layer to perform book-related actions.
 Configuration (config.WebConfig):
+* Configures various settings for the application.
+* In the case of WebSecurityConfig, provides security configurations using Spring Security, allowing for authentication and authorization.
 
-Configures various settings for the application.
-In the case of WebSecurityConfig, provides security configurations using Spring Security, allowing for authentication and authorization.
 Application Entry Point (LibraryApplication):
+* Contains the main method to launch the Spring Boot application.
 
-Contains the main method to launch the Spring Boot application.
 Views (templates/books.jsp, templates/addBook.jsp):
+* JSP templates for rendering HTML views.
+* Display book information and forms for adding new books.
 
-JSP templates for rendering HTML views.
-Display book information and forms for adding new books.
 Resources (application.properties):
-
-Configuration file for database and other application settings.
-Includes database connection details and Hibernate properties.
+* Configuration file for database and other application settings.
+* Includes database connection details and Hibernate properties.
 
 ### 3. Technologies Used:
 
