@@ -127,6 +127,8 @@ The BookService contains the business logic and communicates with the BookDAO fo
 Views are rendered using JSP templates (books.jsp and addBook.jsp), allowing users to view, add, edit, and delete books.
 Spring Security in WebSecurityConfig ensures that certain URLs require authentication before access.
 
+#
+
 ### How to Use
 #### 1- Clone the repository:
 ```
@@ -149,10 +151,14 @@ Access the application at http://localhost:8080.
 Open a web browser and navigate to http://localhost:8080.
 Explore the functionality to view, add, edit, and delete books.
 
+#
+
 ### Additional Considerations
 Ensure that you have Java and Maven installed on your system.
 This project assumes a MySQL database. Adjust the application.properties file if using a different database.
 Customize the project structure or add additional features based on your specific requirements.
+
+#
 
 ### Conclusion:
 The Library Management Web Application is a comprehensive project that integrates various Java technologies to create a functional and secure system for managing a library's book inventory. From data modeling with Hibernate to web development with Spring Boot and Spring Security, the project covers a range of aspects crucial for building robust Java web applications.

@@ -1,0 +1,7 @@
+Question: why you the jps instead of swing?
+
+ Answer: I used JavaServer Pages (JSP) for building web-based views instead of Swing. 
+ Swing is a graphical user interface (GUI) toolkit for Java desktop applications, 
+ whereas JSP is a technology used in web development. 
+ Swing is not typically used in conjunction with Spring Boot for web applications.
+
