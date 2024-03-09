@@ -11,6 +11,7 @@
       * Spring Boot: Simplifies the development of Spring applications.
 
 '''
+
 LibraryManagement
 ├── src
 │   ├── main
@@ -39,6 +40,7 @@ LibraryManagement
 │   │       │       ├── books.jsp
 │   │       │       └── addBook.jsp
 └── target
+
 '''
 
 #### Dependencies:
