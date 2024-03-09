@@ -15,7 +15,7 @@ The Library Management Web Application is a Java-based project that provides a c
       * Spring: For dependency injection and broader application architecture.
       * Spring Boot: Simplifies the development of Spring applications.
 
-## Project Structure
+## - Project Structure
 ```
 LibraryManagement
 ├── src
