@@ -21,6 +21,8 @@ LibraryManagement
 ├── src
 │   ├── main
 │   │   ├── java
+│   │   │   ├── config
+│   │   │   │   └── WebSecurityConfig.java
 │   │   │   ├── controller
 │   │   │   │   └── BookController.java
 │   │   │   ├── dao
@@ -31,8 +33,8 @@ LibraryManagement
 │   │   │   │   ├── BookService.java
 │   │   │   │   └── impl
 │   │   │   │       └── BookServiceImpl.java
-│   │   │   ├── config
-│   │   │   │   └── WebConfig.java
+│   │   │   ├── swing
+│   │   │   │   └── SwingLibraryApp.java
 │   │   │   └── LibraryApplication.java
 │   │   ├── resources
 │   │   │   ├── application.properties
@@ -45,6 +47,7 @@ LibraryManagement
 │   │       │       ├── books.jsp
 │   │       │       └── addBook.jsp
 └── target
+
 ```
 #
 ### Dependencies:
