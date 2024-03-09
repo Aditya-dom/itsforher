@@ -1,4 +1,9 @@
 # Library Management Web Application
+
+### Overview
+
+The Library Management Web Application is a Java-based project that provides a comprehensive solution for managing book inventories in a library setting. The application incorporates various technologies such as Java, Spring Boot, Hibernate, and Spring Security to create a robust and secure system.
+
 ## - Technologies Used:
       * Java: Core language for application development.
       * Swing: For the desktop application part.
@@ -10,7 +15,7 @@
       * Spring: For dependency injection and broader application architecture.
       * Spring Boot: Simplifies the development of Spring applications.
 
-
+## Project Structure
 ```
 LibraryManagement
 ├── src
@@ -41,7 +46,6 @@ LibraryManagement
 │   │       │       └── addBook.jsp
 └── target
 ```
-
 
 #### Dependencies:
 * Spring Boot Starter Web
