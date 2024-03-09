@@ -47,13 +47,14 @@ LibraryManagement
 └── target
 ```
 
-#### Dependencies:
+### Dependencies:
+
 * Spring Boot Starter Web
 * Spring Boot Starter Data JPA
 * Hibernate Core
 * MySQL Connector Java
 
-Project Overview:
+## Project Overview:
 
 ### 1. Purpose:
 
