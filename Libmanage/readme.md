@@ -97,9 +97,10 @@ Resources (application.properties):
 
 ### 3. Technologies Used:
 
-Java:
 
-- Core programming language for application development.
+
+- Java:
+Core programming language for application development.
 
 - Spring Boot:
 Simplifies the development of Spring applications.
