@@ -1,9 +1,13 @@
 # Library Management Web Application
 
 ### Overview
+<<<<<<< HEAD
+Our CSET109 project is officially wrapped up! I teamed up with [name], we’ve nailed it using a mix of Java technologies like swing, jsp, Struts, etc. The project's good to go, and we’re eager to show it off. **The Library Management Web Application** is a Java-based project that provides a comprehensive solution for managing book inventories in a library setting. The application incorporates various technologies such as Java, Spring Boot, Hibernate, and Spring Security to create a robust and secure system.
+=======
 > Our CSET109 project is officially wrapped up! I teamed up with [name], we’ve nailed it using a mix of java technologies like swing, Servlet, JPS, Struts, Hibernate, Spring and Spring boot. The project's good to go, and we’re eager to show it off. 
 >
 > **The Library Management Web Application** is a Java-based project that provides a comprehensive   solution for managing book inventories in a library setting. The application incorporates various technologies such as Java, Spring Boot, Hibernate, and Spring Security to create a robust and secure system.
+>>>>>>> baabea3566787a9649d4e1475d9b11fc82c5f3fc
 
 ## - Technologies Used:
     * Java: Core language for application development.
@@ -16,7 +20,7 @@
     * Spring: For dependency injection and broader application architecture.
     * Spring Boot: Simplifies the development of Spring applications.
 
-## - Project Structure
+## - Project Structure:
 ```
 LibraryManagement
 ├── src
@@ -133,7 +137,7 @@ Spring Security in WebSecurityConfig ensures that certain URLs require authentic
 
 #
 
-### How to Use
+### How to Use:
 #### 1- Clone the repository:
 ```
 git clone https://github.com/your-username/LibraryManagement.git
@@ -157,7 +161,7 @@ Explore the functionality to view, add, edit, and delete books.
 
 #
 
-### Additional Considerations
+### Additional Considerations:
 Ensure that you have Java and Maven installed on your system.
 This project assumes a MySQL database. Adjust the application.properties file if using a different database.
 Customize the project structure or add additional features based on your specific requirements.
@@ -167,9 +171,9 @@ Customize the project structure or add additional features based on your specifi
 ### Conclusion:
 The Library Management Web Application is a comprehensive project that integrates various Java technologies to create a functional and secure system for managing a library's book inventory. From data modeling with Hibernate to web development with Spring Boot and Spring Security, the project covers a range of aspects crucial for building robust Java web applications.
 
-## Authors
+## Authors:
 
 - [Aditi Singh](https://github.com/Aditi-Singh-15)
 
-## License
+## License:
 - This project is licensed under the [MIT License](LICENSE).
