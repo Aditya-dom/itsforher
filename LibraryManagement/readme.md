@@ -172,4 +172,4 @@ The Library Management Web Application is a comprehensive project that integrate
 - [Aditi Singh](https://github.com/Aditi-Singh-15)
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+- This project is licensed under the [MIT License](LICENSE).
