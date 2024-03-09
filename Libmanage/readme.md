@@ -11,7 +11,7 @@
       * Spring Boot: Simplifies the development of Spring applications.
 
 
-
+```
 LibraryManagement
 ├── src
 │   ├── main
@@ -40,7 +40,7 @@ LibraryManagement
 │   │       │       ├── books.jsp
 │   │       │       └── addBook.jsp
 └── target
-
+```
 
 
 #### Dependencies:
@@ -123,10 +123,10 @@ Spring Security in WebSecurityConfig ensures that certain URLs require authentic
 
 ### How to Use
 #### 1- Clone the repository:
-'''
+```
 git clone https://github.com/your-username/LibraryManagement.git
 cd LibraryManagement
-'''
+```
 
 #### 2- Configure the database connection:
 
