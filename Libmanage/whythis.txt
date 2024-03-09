@@ -5,3 +5,84 @@ Question: why you the jps instead of swing?
  whereas JSP is a technology used in web development. 
  Swing is not typically used in conjunction with Spring Boot for web applications.
 
+#################################################################################
+
+Emphasising about class Structure,object Behavior, state changes, inheritance
+
+Class Structure:
+Book Class (model.Book):
+
+Attributes:
+
+id: Represents the unique identifier for each book.
+title: Represents the title of the book.
+author: Represents the author of the book.
+Behavior:
+
+The class encapsulates the state (attributes) of a book and provides methods to interact with that state.
+BookDAO Interface (dao.BookDAO):
+
+Methods:
+
+getAllBooks(): Retrieves a list of all books from the database.
+getBookById(Long id): Retrieves a book by its unique identifier.
+addBook(Book book): Adds a new book to the database.
+updateBook(Book book): Updates the information of an existing book in the database.
+deleteBook(Long id): Deletes a book from the database based on its unique identifier.
+Behavior:
+
+The interface declares methods for interacting with the database, defining the contract for data access operations.
+BookDAOImpl Class (dao.impl.BookDAOImpl):
+
+Behavior:
+Implements the methods defined in BookDAO interface using Hibernate for data access operations.
+Utilizes Hibernate Session for database interaction.
+BookService Interface (service.BookService):
+
+Methods:
+
+getAllBooks(): Retrieves a list of all books.
+getBookById(Long id): Retrieves a book by its unique identifier.
+addBook(Book book): Adds a new book.
+updateBook(Book book): Updates the information of an existing book.
+deleteBook(Long id): Deletes a book.
+Behavior:
+
+The interface declares methods for business logic related to book management.
+BookServiceImpl Class (service.impl.BookServiceImpl):
+
+Behavior:
+Implements the methods defined in BookService interface.
+Acts as an intermediary between the controller and DAO, providing business logic for book-related operations.
+BookController Class (controller.BookController):
+
+Behavior:
+Handles HTTP requests related to book management.
+Invokes methods from the BookService to perform book-related actions.
+Utilizes Spring annotations for request mapping and dependency injection.
+
+Object Behavior and State Change:
+
+Object Behavior:
+
+Each instance of the Book class represents an individual book.
+Objects of the BookDAOImpl class interact with the database to perform CRUD operations.
+Objects of the BookServiceImpl class encapsulate business logic related to book management.
+The BookController class manages the flow of the application, handling HTTP requests and invoking appropriate methods.
+
+State Change:
+
+State changes occur when methods are invoked on objects:
+Adding a new book (addBook method).
+Updating the information of an existing book (updateBook method).
+Deleting a book (deleteBook method).
+Inheritance:
+In the provided examples, there is no explicit use of class inheritance. However, Spring Boot and Hibernate use inheritance concepts internally:
+
+Inheritance in Hibernate:
+
+Hibernate supports inheritance mapping strategies (e.g., single table, joined table, or table per class hierarchy).
+If your application involves class hierarchies, Hibernate can map them to database tables using inheritance concepts.
+Inheritance in Spring Boot:
+
+Spring Boot leverages object-oriented principles, and if your application involves class hierarchies, you can use inheritance in your domain model.
