@@ -121,26 +121,29 @@ The BookService contains the business logic and communicates with the BookDAO fo
 Views are rendered using JSP templates (books.jsp and addBook.jsp), allowing users to view, add, edit, and delete books.
 Spring Security in WebSecurityConfig ensures that certain URLs require authentication before access.
 
-How to Use
-Clone the repository:
+### How to Use
+#### 1- Clone the repository:
 '''
 git clone https://github.com/your-username/LibraryManagement.git
 cd LibraryManagement
 '''
 
-Configure the database connection:
+#### 2- Configure the database connection:
 
 Open src/main/resources/application.properties.
 Update the database connection details as per your MySQL setup.
-Run the application:
+
+#### 3- Run the application:
 
 Execute the LibraryApplication class.
 Access the application at http://localhost:8080.
-Access the application:
+
+#### 4- Access the application:
 
 Open a web browser and navigate to http://localhost:8080.
 Explore the functionality to view, add, edit, and delete books.
-Additional Considerations
+
+### Additional Considerations
 Ensure that you have Java and Maven installed on your system.
 This project assumes a MySQL database. Adjust the application.properties file if using a different database.
 Customize the project structure or add additional features based on your specific requirements.
