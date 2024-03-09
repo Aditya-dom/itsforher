@@ -1,7 +1,8 @@
 # Library Management Web Application
 
 ### Overview
-Our CSET109 project is officially wrapped up! I teamed up with [name], we’ve nailed it using a mix of Java technologies like swing, jsp, Struts, etc. The project's good to go, and we’re eager to show it off. **The Library Management Web Application** is a Java-based project that provides a comprehensive solution for managing book inventories in a library setting. The application incorporates various technologies such as Java, Spring Boot, Hibernate, and Spring Security to create a robust and secure system.
+Our CSET109 project is officially wrapped up! I teamed up with [name], we’ve nailed it using a mix of Java technologies like swing, jsp, Struts, etc. The project's good to go, and we’re eager to show it off. 
+**The Library Management Web Application** is a Java-based project that provides a comprehensive solution for managing book inventories in a library setting. The application incorporates various technologies such as Java, Spring Boot, Hibernate, and Spring Security to create a robust and secure system.
 
 ## - Technologies Used:
     * Java: Core language for application development.
